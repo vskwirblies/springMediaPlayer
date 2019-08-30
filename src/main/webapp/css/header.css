@@ -1,0 +1,33 @@
+header {
+	text-align: center;
+}
+header img {
+	max-height: 100px;
+	max-width: 100px;
+}
+
+nav a {
+  /* background-color: #13abc4; */
+  color: black;
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  transition: text-decoration 1s;
+}
+nav a:hover {
+  /* text-decoration: underline; */
+}
+
+nav a::after {
+  /* background-color: red; */
+  /* color: red; */
+  content: '';
+  display: block;
+  height: 2px;
+  transition: background-color .7s;
+}
+
+nav a:hover::after {
+/*  background-color: black; */
+}
