@@ -26,5 +26,4 @@
 
 </div>
 
-<script type="text/javascript" src="js/myScript.js"></script>
 <%@include file="footer.jsp"%>
