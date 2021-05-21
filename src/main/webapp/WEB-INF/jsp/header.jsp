@@ -11,7 +11,7 @@
 <body>
 
 <header class="jumbotron">
-	<img src="img/spring-icon.png" alt="spring-icon"/>
+	<a href="/"><img src="img/spring-icon.png" alt="spring-icon"/></a>
 	<h1>Spring Media Browser</h1>
 	<nav class="nav">
 		<a href="/artists?page=1">Artists</a>
